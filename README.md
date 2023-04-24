@@ -7,10 +7,6 @@ In this react example, weather information is obtained from openweathermap.org a
 **Client:** React, TypeScript
 
 
-This example is posted on the following site. You can check it from the website below.
-
-https://
-
 ![alt text](public/screenshot.png?raw=true)
 
 ## Installation
