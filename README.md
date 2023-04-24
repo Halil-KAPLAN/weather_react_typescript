@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Weather information
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this react example, weather information is obtained from openweathermap.org and displayed on the screen.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+**Client:** React, TypeScript
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This example is posted on the following site. You can check it from the website below.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+https://
 
-### `npm test`
+![alt text](public/screenshot.png?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+NodeJS must be installed for the project to work.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Download and install **node** (and **npm**): https://nodejs.org/en/
+- Make sure you have an editor (I used VSCode: https://code.visualstudio.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open a terminal or command prompt inside the project folder, then install the dependencies.
 
-### `npm run eject`
+```Bash
+# Follow this command to add the node_modules folder.
+$ npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Start the project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open a terminal or command prompt inside the project folder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```Bash
+# Follow this command to run the project.
+$ npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Then visit http://localhost:3000/
